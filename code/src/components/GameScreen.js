@@ -93,6 +93,7 @@ const InnerContainer = styled.div`
   justify-content: space-evenly;
   width: 300px;
   min-height: 300px;
+  height: auto;
   border: 6px double;
   border-radius: 15px;
   padding: 20px;
@@ -131,7 +132,7 @@ const InnerWrap = styled.div`
   width: 40%;
   padding: 10px;
 
-  @media {
+  @media (min-width: 768px) {
     width: 100%;
   }
 `;
