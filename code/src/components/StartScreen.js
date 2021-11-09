@@ -108,13 +108,10 @@ const Button = styled.button`
   cursor: pointer;
   background: #cfb05d;
   border: 1px solid #333;
-  -webkit-box-shadow: inset 1px 1px 10px #333;
-  -moz-box-shadow: inset 1px 1px 10px #333;
-  box-shadow: inset 1px 1px 3px #333;
   color: #000;
 
   &:hover {
-    transform: scale(1.1);
+    filter: brightness(120%);
   }
 
   @media (min-width: 768px) {
