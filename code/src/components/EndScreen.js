@@ -87,11 +87,11 @@ const GameDescription = styled.p`
 `;
 
 const Button = styled.button`
-  padding: 8px 16px;
-  border: #f7f5e1;
+  padding: 10px 16px;
   border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
+  border: none;
   background: #cfb05d;
   color: #000;
 

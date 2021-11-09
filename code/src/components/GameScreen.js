@@ -149,11 +149,11 @@ const Description = styled.p`
 
 const Button = styled.button`
   padding: 10px 16px;
-  border: 1px solid #333;
   border-radius: 10px;
-  font-size: 16;
+  font-size: 16px;
   cursor: pointer;
   color: #000;
+  border: none;
   background: #cfb05d;
 
   &:hover {

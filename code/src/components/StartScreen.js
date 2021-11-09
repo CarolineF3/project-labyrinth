@@ -106,8 +106,8 @@ const Button = styled.button`
   border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
+  border: none;
   background: #cfb05d;
-  border: 1px solid #333;
   color: #000;
 
   &:hover {
