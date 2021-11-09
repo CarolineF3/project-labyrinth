@@ -57,7 +57,7 @@ const GameScreen = () => {
 export default GameScreen;
 
 const GameContainer = styled.div`
-  background-image: url(${(props) =>
+  background-image: url(${(props) => 
     props.coordinates === "0,0"
       ? img1
       : props.coordinates === "1,0"
