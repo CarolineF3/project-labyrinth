@@ -32,7 +32,7 @@ const gameFetch = createSlice({
 export const firstFetch = (userName) => {
   return (dispatch, getState) => {
     dispatch(gameFetch.actions.setLoading(true));
-    fetch("https://wk16-backend.herokuapp.com/start", {
+    fetch("https://labyrinth.technigo.io/start", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username: userName }),
@@ -52,7 +52,7 @@ export const firstFetch = (userName) => {
 export const secondFetch = (userName, direction) => {
   return (dispatch) => {
     dispatch(gameFetch.actions.setLoading(true));
-    fetch("https://wk16-backend.herokuapp.com/action", {
+    fetch("https://labyrinth.technigo.io/action", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
